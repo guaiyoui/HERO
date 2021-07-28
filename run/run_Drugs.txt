@@ -1,0 +1,5 @@
+cd ..
+cd src
+python main.py --dataset Drugs --iter 10000 --a 2 --b 1.211 --c 1 --Mtype 0
+cd ..
+python src/link_prediction.py --input emb/Drugs/Res.emb;

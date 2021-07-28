@@ -1,0 +1,2 @@
+embedding time:16.183549880981445
+updating time:0.01509404182434082

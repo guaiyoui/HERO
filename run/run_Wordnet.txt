@@ -1,0 +1,5 @@
+cd ..
+cd src
+python main.py --dataset Wordnet --iter 10000 --a 1.004 --b 2 --c 1 --Mtype 0
+cd ..
+python src/link_prediction.py --input emb/Wordnet/Res.emb;

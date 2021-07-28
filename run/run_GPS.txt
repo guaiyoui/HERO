@@ -1,0 +1,5 @@
+cd ..
+cd src
+python main.py --dataset GPS --iter 20000 --a 1 --b 2 --c 1.66 --Mtype 0
+cd ..
+python src/link_prediction.py --input emb/GPS/Res.emb;
